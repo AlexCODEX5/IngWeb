@@ -14,7 +14,7 @@
         require("Coche.php");
         ?>
 
-    <h1> Herencia, Eztension y Polimorfismo</h1>
+    <h1> Herencia, Extension y Polimorfismo</h1>
 
     <?php
         //Instancio y configuro los vehiculos
@@ -26,19 +26,19 @@
 
     <div>
         ¿Puedo aparcar el coche en la superficie?
-        <strong><?php echo ($coche->puedeAparcar("superficie")) ? "si" : "no" ?></strong>
+        <strong><?php echo ($coche->puedeAparcar("superficie")) ? "si" : "no" ?></strong><br>
         ¿Puedo aparcar el coche en el subterraneo 2?
-        <strong><?php echo ($coche->puedeAparcar("subterraneo 2")) ? "si" : "no" ?></strong>
+        <strong><?php echo ($coche->puedeAparcar("subterraneo 2")) ? "si" : "no" ?></strong><br>
         ¿Puedo aparcar la furgoneta en la superficie?
-        <strong><?php echo ($furgoneta->puedeAparcar("superficie")) ? "si" : "no" ?></strong>
+        <strong><?php echo ($furgoneta->puedeAparcar("superficie")) ? "si" : "no" ?></strong><br>
         ¿Puedo aparcar la furgoneta en el subterraneo 2?
-        <strong><?php echo ($furgoneta->puedeAparcar("subterraneo 2")) ? "si" : "no" ?></strong>
+        <strong><?php echo ($furgoneta->puedeAparcar("subterraneo 2")) ? "si" : "no" ?></strong><br>
         ¿Puedo aparcar el autobus en la superficie?
-        <strong><?php echo ($autobus->puedeAparcar("superficie")) ? "si" : "no" ?></strong>
+        <strong><?php echo ($autobus->puedeAparcar("superficie")) ? "si" : "no" ?></strong><br>
         ¿Puedo aparcar el autobus en el subterraneo 2?
-        <strong><?php echo ($autobus->puedeAparcar("subterraneo 2")) ? "si" : "no" ?></strong>
+        <strong><?php echo ($autobus->puedeAparcar("subterraneo 2")) ? "si" : "no" ?></strong><br>
         ¿A que empresa pertence el bus?
-        <strong><?php echo ($autobus->getEmpresa()) ? "si" : "no" ?></strong>
+        <strong><?php echo ($autobus->getEmpresa()) ? "si" : "no" ?></strong><br>
     </div>
 </body>
 </html>
